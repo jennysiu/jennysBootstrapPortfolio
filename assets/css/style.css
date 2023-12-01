@@ -1,0 +1,69 @@
+
+/* GLOBAL */
+
+h1, h2 {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* NAV BAR */
+
+.customNav {
+  
+}
+
+#navbarNavAltMarkup {
+  display: flex;
+  justify-content: end;
+}
+
+
+/* JUMBOTRON */
+
+.jumboBG {
+  /* OPTIONAL ADD BG IMAGE */
+}
+
+.jumboContainer {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+h1 {
+  padding-bottom: 5%;
+}
+
+.profileImg {
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* PROJECTS */
+
+.card {
+  margin-bottom: 2%;
+}
+
+
+/* SKILLS */
+
+#skills {
+  
+  text-align: center;
+}
+
+.skillsList {
+
+}
+
+
+/* ABOUT ME */
+
+#aboutMe {
+
+}
