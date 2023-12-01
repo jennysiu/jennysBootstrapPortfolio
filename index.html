@@ -8,174 +8,193 @@
       <!-- BOOTSTRAP LINK -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <!-- reset css -->
+    <link rel="stylesheet" href="/assets/css/reset.css">
+
     <!-- CUSTOM CSS STYLESHEET -->
+    <link rel="stylesheet" href="/assets/css/style.css">
 
     
   </head>
+
   <body>
 
     <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Jenny Siu</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
+      <div class="container">
+        <a class="navbar-brand" href="#">JS</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Projects</a>
-            <a class="nav-link" href="#">Skills</a>
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#aboutMe">About Me</a>
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </div>
         </div>
       </div>
     </nav>
 
-    <!-- JUMBOTRON HERO -->
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
-      <div class="container-fluid py-5 jumboCopy">
-        <img src="/assets/images/profileImg.jpeg">
-        <h1 class="display-5 fw-bold">Jenny Siu</h1>
-        <p class="col-md-12 fs-4">Welcome to my Bootstrap portfolio page.</p>
-        <button class="btn btn-primary btn-lg" type="button">Buy Tickets</button>
-      </div>
-    </div>
-
-
-      <!-- WORK SECTION -->
-      <div class="container text-center">
-        <h2>Projects</h2>
+    <!-- JUMBOTRON -->
+    <section class="jumbotron">
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3 jumboBG">
         
-        <div class="row">
-          <!-- first row -->
-          <div class="col col-sm-12 col-md-12 col-lg-12">
-            
-            <!-- CARD 1 -->
-            
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Debut Portfolio</h5>
-                <p class="card-text">My first ever portfolio webpage. It includes sections information aout me, projects, and how to contact me. </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">HTML</li>
-                <li class="list-group-item">CSS</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">GitHub Repo</a>
-                <a href="#" class="card-link">Deployed URL</a>
-              </div>
-            </div>
-          </div>
+        <!-- container -->
+        <div class="container-fluid py-5 jumboContainer">
+          
+          <!-- 1. content -->
+          <section class="JumboContent">
+            <h1 class="display-5 fw-bold">Jenny Siu</h1>
+            <p class="col-md-12 fs-4">Welcome to my Bootstrap portfolio page.</p>
+            <!-- <button class="btn btn-primary btn-lg" type="button">Buy Tickets</button> -->
+          </section>
+
+          <!-- 2. image -->
+          <!-- **CROP IMAGE INTO A SQUARE** -->
+          <section class="profileImg">
+                    <img class="profileImg" src="/assets/images/profileImg.jpeg">
+
+          </section>
+
         </div>
+      </div>
+    </section>
 
-        <!-- second row -->
-        <div class="row">
-          <div class="col col-sm-12 col-md-6 col-lg-6">
+      <!-- PROJECTS SECTION -->
+    <section id="projects">  
+      <div class="container text-center">
+          <h2>Projects</h2>
+          
+          <div class="row">
 
-            <!-- CARD 2 -->
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Horesion Code Refractor</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">GitHub Repo</a>
-                <a href="#" class="card-link">Deployed URL</a>
+            <!-- first row -->
+            <div class="col col-sm-12 col-md-12 col-lg-12">
+              
+              <!-- CARD 1 -->
+              
+              <div class="card featuredCard" style="width: 100%;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Debut Portfolio</h5>
+                  <p class="card-text">My first ever portfolio webpage. It includes information about me, projects, and how to contact me. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HTML</li>
+                  <li class="list-group-item">CSS</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">GitHub Repo</a>
+                  <a href="#" class="card-link">Deployed URL</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col col-sm-12 col-md-6 col-lg-6">
 
-            <!-- CARD 3 -->
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!-- second row -->
+          <div class="row">
+            <div class="col col-sm-12 col-md-6 col-lg-6">
+
+              <!-- CARD 2 -->
+              <div class="card" style="width: 100%;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Horesion Code Refractor</h5>
+                  <p class="card-text">This project was to make the Horiseon website more accessible. In order to help people with disabilities access the website use assistive technologies such as video captions, screen readers, and braille keyboards.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HTML</li>
+                  <li class="list-group-item">CSS</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">GitHub Repo</a>
+                  <a href="#" class="card-link">Deployed URL</a>
+                </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">GitHub Repo</a>
-                <a href="#" class="card-link">Deployed URL</a>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-lg-6">
+
+              <!-- CARD 3 -->
+              <div class="card" style="width: 100%;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Web Dev Odyssey</h5>
+                  <p class="card-text">
+                    In the digital atelier, our web development journey unfolded. Keystrokes served as brushes, creating an immersive canvas of interactivity. Code lines choreographed a dance, bringing pixels to life in a symphony of user engagement.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">GitHub Repo</a>
+                  <a href="#" class="card-link">Deployed URL</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- third row -->
-        <div class="row">
-          <div class="col col-sm-12 col-md-6 col-lg-6">
+          <!-- third row -->
+          <div class="row">
+            <div class="col col-sm-12 col-md-6 col-lg-6">
 
-            <!-- CARD 4 -->
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <!-- CARD 4 -->
+              <div class="card" style="width: 100%;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">A Web Masterpiece</h5>
+                  <p class="card-text">Lost in the labyrinth of code, our project emerged—a digital symphony of creativity. With each line, a story unfolded, and pixels danced to the rhythm of innovation. Navigating complexities, we birthed a web masterpiece.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">GitHub Repo</a>
+                  <a href="#" class="card-link">Deployed URL</a>
+                </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">GitHub Repo</a>
-                <a href="#" class="card-link">Deployed URL</a>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-lg-6">
+
+              <!-- CARD 5 -->
+              <div class="card" style="width: 100%;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Enchanting user experience</h5>
+                  <p class="card-text">In the digital realm, our project unfurled like a kaleidoscope of possibilities. Lines of code wove intricate patterns, and pixels aligned in harmonious design. A virtual journey where creativity collided with functionality, yielding an enchanting user experience.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">GitHub Repo</a>
+                  <a href="#" class="card-link">Deployed URL</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col col-sm-12 col-md-6 col-lg-6">
-
-            <!-- CARD 5 -->
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">GitHub Repo</a>
-                <a href="#" class="card-link">Deployed URL</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-      
+        </div> 
+    </section>    
       
       <!-- SKILLS SECTION -->
-      <section class="skills">
-        <h2>Skills</h2>
+    <section id="skills">
+      <h2>Skills</h2>
 
+      <section class="skillsList">
         <span class="badge text-bg-success">HTML</span>
         <span class="badge text-bg-success">CSS</span>
         <span class="badge text-bg-success">BOOTRSAP</span>
         <span class="badge text-bg-success">JAVASCRIPT</span>
         <span class="badge text-bg-success">REACT</span>
-
-
       </section>
+    </section>
 
 
-      <!-- ABOUT ME -->
+    <!-- ABOUT ME -->
+    <section id="aboutMe">
       <div class="container text-center">
         <div class="row">
           <div class="col">
@@ -187,13 +206,13 @@
 
         </div>
       </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
 
 
-      <!-- FOOTER -->
-      <footer>
-
-
-      </footer>
+    </footer>
 
 
 
