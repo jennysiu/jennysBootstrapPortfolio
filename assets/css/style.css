@@ -4,6 +4,15 @@
 h1, h2 {
   margin-top: 5%;
   margin-bottom: 2%;
+
+  font-family: "Jost";
+  font-weight: 500;
+  
+}
+
+p {
+  font-family: "Libre Caslon", Arial, Helvetica, sans-serif;
+  
 }
 
 html {
@@ -27,26 +36,43 @@ html {
 
 .jumboBG {
   /* OPTIONAL ADD BG IMAGE */
+  background-image: url(/assets/images/tomoko-uji-v4bkVOl1sTI-unsplash.jpg);
 }
 
 .jumboContainer {
- display: flex;
- justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-h1 {
-  padding-bottom: 5%;
+.jumboContent h1 {
+  font-size: 60px;
+}
+
+.jumboContent p {
+  margin-top: 2% !important;
+  font-size: 25px !important;
 }
 
 .profileImg {
-  height: 200px;
-  border-radius: 50%;
+  height: 300px;
+  border-radius: 15%;
 }
 
 /* PROJECTS */
 
 .card {
   margin-bottom: 2%;
+}
+
+.projectImgContainer {
+ height: 350px;
+ overflow: hidden; 
+}
+
+.card-img-top {
+  
+
+
 }
 
 
