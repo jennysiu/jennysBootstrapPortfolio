@@ -1,4 +1,15 @@
 
+/* Assign variables here */
+
+:root {
+  /* colour pallete */
+  --white: #EDF0F0;
+  --lightGreen:#a7c150;
+  --pink: #C47A88;
+  --darkGreen: #6A9089;
+}
+
+
 /* GLOBAL */
 
 h1, h2 {
@@ -20,6 +31,27 @@ html {
   width: 100%;
 }
 
+a {
+  position: relative;
+  text-decoration: none;
+  /* color: #333; Set the default text color */
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px; /* Set the underline height */
+  bottom: 0;
+  left: 0;
+  background-color: var(--lightGreen) !important; /* Set the underline color */
+  transition: width 0.3s ease; /* Set the transition duration and easing function */
+}
+
+a:hover::after {
+  width: 100%; /* Expand the underline to 100% width on hover */
+}
+
 /* NAV BAR */
 
 .customNav {
@@ -29,6 +61,10 @@ html {
 #navbarNavAltMarkup {
   display: flex;
   justify-content: end;
+}
+
+.nav-link:hover {
+  /* text-decoration: underline; */
 }
 
 
@@ -65,8 +101,8 @@ html {
 }
 
 .projectImgContainer {
- height: 350px;
- overflow: hidden; 
+  height: 350px;
+  overflow: hidden; 
 }
 
 .card-img-top {
@@ -79,7 +115,6 @@ html {
 /* SKILLS */
 
 #skills {
-  
   text-align: center;
 }
 
@@ -98,7 +133,7 @@ html {
 /* FOOTER */
 
 footer {
-     padding-bottom: 2%;
+  padding-bottom: 2%;
   text-align: center;
 }
 
@@ -112,6 +147,3 @@ footer p {
   font-size: small;
 }
 
-.socialBadges a:hover {
-  color: yellow;
-}
