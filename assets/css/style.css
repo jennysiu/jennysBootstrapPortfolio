@@ -67,3 +67,25 @@ h1 {
 #aboutMe {
 
 }
+
+
+/* FOOTER */
+
+footer {
+     padding-bottom: 2%;
+  text-align: center;
+}
+
+footer a {
+  margin: 1%;
+  height: 5%;
+  font-size: 25px;
+}
+
+footer p {
+  font-size: small;
+}
+
+.socialBadges a:hover {
+  color: yellow;
+}
