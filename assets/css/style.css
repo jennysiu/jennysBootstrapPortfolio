@@ -118,8 +118,11 @@ a:hover::after {
   text-align: center;
 }
 
-.skillsList {
-
+.skillsList span {
+  margin: 5px;
+  font-size: 13.5px;
+  color: var(--white);
+  background-color: var(--pink) !important;
 }
 
 
