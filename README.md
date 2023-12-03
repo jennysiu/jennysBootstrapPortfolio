@@ -22,7 +22,7 @@ This project is my B portfolio webpage using Bootstrap, showcasing my skills, pr
 
 ## Features
 
-- Responsive design for various devices using Boostrap Grid
+- Responsive design for various devices using Bootstrap Grid
 - Sections for about me, skills, projects, and contact information
 - Interactive elements to engage visitors
 - Accessible design to help people who have disabilities to view the page with more ease
@@ -42,7 +42,7 @@ To view the code files, you can Git Clone by following the instructions below:
 
 To view the webpage, no installation is required, you can access the live URL here: https://jennysiu.github.io/jennysBootstrapPortfolio/
 
-Once the webpage link is opened, it should look like this:
+Once the webpage link is opened, it should look something like this:
 ![Demo image of how the webpage should look like upon opening.](assets/images/demoOfDeployedPage.png)
 
 
