@@ -43,7 +43,7 @@ To view the code files, you can Git Clone by following the instructions below:
 To view the webpage, no installation is required, you can access the live URL here: https://jennysiu.github.io/jennysBootstrapPortfolio/
 
 Once the webpage link is opened, it should look like this:
-![Demo image of how the webpage should look like upon opening.](/assets/images/demoOfDeployedPage.png)
+![Demo image of how the webpage should look like upon opening.](assets/images/demoOfDeployedPage.png)
 
 
 ## Technologies Used
@@ -68,8 +68,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Acknowledgments
 - Images used in this project:
-  - Hero Banner image by **and-machines** on [https://unsplash.com/]
-  - Project Image by  **pawel-czerwinski** on [https://unsplash.com/]
+  - Hero image image by **Tomoko Uji** on [https://unsplash.com/]
+  - Project Image by  **Andrew Ridley** on [https://unsplash.com/]
+
+- Icons in the footer section procided by Font Awesome: [https://fontawesome.com/icons]
 
 - README template inspired by ChatGPT, an AI language model developed by OpenAI.
   (Note: Portions of this README were generated with assistance from ChatGPT.)
