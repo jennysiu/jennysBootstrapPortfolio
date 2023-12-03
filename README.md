@@ -17,7 +17,7 @@ This is the README file for my personal Boostrap portfolio webpage. It provides 
 
 ## Description
 
-This project is my B portfolio webpage using Bootstrap, showcasing my skills, projects, and other relevant information. It is designed to provide a snapshot of my work and experiences for potential employers, clients, or anyone interested in learning more about me.
+This project is my Bootstrap portfolio webpage using Bootstrap, showcasing my skills, projects, and other relevant information. It is designed to provide a snapshot of my work and experiences for potential employers, clients, or anyone interested in learning more about me.
 
 
 ## Features
