@@ -77,7 +77,7 @@ a:hover::after {
 /* JUMBOTRON */
 
 .jumboBG {
-  background-image: url("/assets/images/heroImg.jpg")
+  background-image: url("../images/heroImg.jpg")
 }
 
 .jumboContainer {
