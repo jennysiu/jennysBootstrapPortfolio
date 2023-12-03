@@ -92,6 +92,7 @@ a:hover::after {
 }
 
 .profileImg {
+  margin-left: 20%;
   height: 300px;
   border-radius: 15%;
 }
@@ -191,3 +192,4 @@ footer p {
   margin-bottom: -4px;
   width: 50%; 
 }
+
