@@ -113,10 +113,13 @@ a:hover::after {
   overflow: hidden; 
 }
 
-.card-img-top {
-  
+a.projectImgLink {
+  position: relative;
+  text-decoration: none;
+}
 
-
+a.projectImgLink::after {
+  height: 0; /* Set the underline height */
 }
 
 
