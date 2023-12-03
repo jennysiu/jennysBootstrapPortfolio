@@ -14,11 +14,16 @@
 
 h1, h2 {
   margin-top: 5%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 
   font-family: "Jost";
-  font-weight: 500;
+  font-weight: 550;
   
+}
+
+h2 {
+  font-size: 40px;
+
 }
 
 p {
@@ -56,8 +61,8 @@ a:hover::after {
 
 /* NAV BAR */
 
-.customNav {
-  
+.navbarBrand {
+  font-size: 25px;
 }
 
 #navbarNavAltMarkup {
@@ -133,6 +138,10 @@ a:hover::after {
 
 #aboutMe {
   padding: 5%;
+}
+
+#aboutMe h2 {
+  margin-top: 0;
 }
 
 .cvButton {
