@@ -41,7 +41,7 @@ html {
 a {
   position: relative;
   text-decoration: none;
-  /* color: #333; Set the default text color */
+  color: #333; 
 }
 
 a::after {
@@ -145,38 +145,17 @@ a:hover::after {
 }
 
 .cvButton {
-  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-}
-
-
-/* FOOTER */
-
-footer {
-  padding-bottom: 2%;
-  text-align: center;
-}
-
-footer a {
-  margin: 1%;
-  height: 5%;
-  font-size: 25px;
-}
-
-footer p {
-  font-size: small;
-}
-
-.cvButton {
   margin: 2%;
-  background-color: var(--pink);
-  border: none;
-  color: white;
+  background-color: white);
+  border: 1px solid var(--pink);
+  color: rgb(42, 39, 39);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .cvButton:hover {
   margin: 2%;
   background-color: rgb(211, 99, 118);
-  border: none;
+  border: 1px solid var(--pink);
   color: white;
 }
 
@@ -200,5 +179,29 @@ footer p {
 .cvLink:hover::after {
   margin-bottom: -4px;
   width: 50%; 
+}
+
+
+/* FOOTER */
+
+footer {
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+footer a {
+  margin: 1%;
+  height: 5%;
+  font-size: 30px;
+  color: #000000a6;
+}
+
+footer a:hover {
+  color: var(--pink);
+}
+
+footer p {
+  padding: 1%;
+  font-size: small;
 }
 
