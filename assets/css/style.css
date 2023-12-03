@@ -9,8 +9,11 @@
   --darkGreen: #6A9089;
 }
 
-
 /* GLOBAL */
+
+body {
+  background-color: var(--white);
+}
 
 h1, h2 {
   margin-top: 5%;
@@ -70,15 +73,10 @@ a:hover::after {
   justify-content: end;
 }
 
-.nav-link:hover {
-  /* text-decoration: underline; */
-}
-
 
 /* JUMBOTRON */
 
 .jumboBG {
-  /* OPTIONAL ADD BG IMAGE */
   background-image: url(/assets/images/tomoko-uji-v4bkVOl1sTI-unsplash.jpg);
 }
 
@@ -101,6 +99,7 @@ a:hover::after {
   height: 300px;
   border-radius: 15%;
 }
+
 
 /* PROJECTS */
 
@@ -149,7 +148,7 @@ a.projectImgLink::after {
 
 .cvButton {
   margin: 2%;
-  background-color: white);
+  background-color: white;
   border: 1px solid var(--pink);
   color: rgb(42, 39, 39);
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
