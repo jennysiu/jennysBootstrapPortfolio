@@ -22,6 +22,8 @@ h1, h2 {
 }
 
 p {
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-family: "Libre Caslon", Arial, Helvetica, sans-serif;
   
 }
@@ -129,7 +131,7 @@ a:hover::after {
 /* ABOUT ME */
 
 #aboutMe {
-
+  padding: 5%;
 }
 
 .cvButton {
@@ -154,5 +156,38 @@ footer p {
   font-size: small;
 }
 
+.cvButton {
+  margin: 2%;
+  background-color: var(--pink);
+  border: none;
+  color: white;
+}
 
+.cvButton:hover {
+  margin: 2%;
+  background-color: rgb(211, 99, 118);
+  border: none;
+  color: white;
+}
 
+.cvLink {
+  position: relative;
+  text-decoration: none;
+
+}
+
+.cvLink::after {
+  content: "";
+  margin-bottom: -2px;
+  position: absolute;
+  width: 0;
+  height: 2px; /* Set the underline height */
+  left: 25%;
+  background-color: var(--lightGreen) !important; Set the underline color
+  transition: width 0.3s ease; /* Set the transition duration and easing function */
+}
+
+.cvLink:hover::after {
+  margin-bottom: -4px;
+  width: 50%; 
+}
