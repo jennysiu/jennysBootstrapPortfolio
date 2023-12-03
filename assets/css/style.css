@@ -174,7 +174,7 @@ a.projectImgLink::after {
   width: 0;
   height: 2px; /* Set the underline height */
   left: 25%;
-  background-color: var(--lightGreen) !important; Set the underline color
+  background-color: var(--lightGreen) !important; /*Set the underline color */
   transition: width 0.3s ease; /* Set the transition duration and easing function */
 }
 
