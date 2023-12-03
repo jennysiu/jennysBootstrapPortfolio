@@ -108,12 +108,26 @@ a:hover::after {
 }
 
 .projectImgContainer {
+  position: relative;
   height: 350px;
   overflow: hidden; 
+  background-color: #6A9089;
 }
 
-a.projectImgLink {
+.card-img {
   position: relative;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.card-img:hover {
+  position: relative;
+  object-fit: cover;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.projectImgLink {
   text-decoration: none;
 }
 
