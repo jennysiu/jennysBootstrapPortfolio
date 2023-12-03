@@ -1,6 +1,6 @@
-# Jenny's Boostrap Portfolio Webpage
+# Jenny's Bootstrap Portfolio Webpage
 
-This is the README file for my personal Boostrap portfolio webpage. It provides information about the project, how to get to it, and any other relevant details.
+This is the README file for my personal Bootstrap portfolio webpage. It provides information about the project, how to get to it, and other relevant details.
 
 
 ## Table of Contents
@@ -30,7 +30,7 @@ This project is my Bootstrap portfolio webpage using Bootstrap, showcasing my sk
 
 ## Installation
 
-To view the webpage, no installation is required, you can access the live URL here: https://jennysiu.github.io/jennysBootstrapPortfolio/
+To view the webpage, no installation is required you can access the live URL here: https://jennysiu.github.io/jennysBootstrapPortfolio/
 
 To view the code files, you can Git Clone by following the instructions below:
 1. Clone the repository: `git clone [https://github.com/jennysiu/jennysBootstrapPortfolio]`
@@ -40,7 +40,7 @@ To view the code files, you can Git Clone by following the instructions below:
 
 ## Usage
 
-To view the webpage, no installation is required, you can access the live URL here: https://jennysiu.github.io/jennysBootstrapPortfolio/
+To view the webpage, no installation is required you can access the live URL here: https://jennysiu.github.io/jennysBootstrapPortfolio/
 
 Once the webpage link is opened, it should look something like this:
 ![Demo image of how the webpage should look like upon opening.](assets/images/demoOfDeployedPage.png)
