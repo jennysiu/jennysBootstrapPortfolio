@@ -193,8 +193,8 @@ a.projectImgLink::after {
 .cvButton {
   margin-top: 1%;
   
-  background-color: var(--pink);
-  border: 1px solid var(--lightGreen);
+  background-color: var(--lightGreen);
+  border: 1px solid var(--pink);
   color: white;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
@@ -202,7 +202,7 @@ a.projectImgLink::after {
 .cvButton:hover {
   margin: 2%;
   background-color: white;
-  border: 1px solid var(--pink);
+  border: 1px solid var(--lightGreen);
   color: grey;
 }
 
@@ -232,7 +232,7 @@ a.projectImgLink::after {
 /* FOOTER */
 
 footer {
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   text-align: center;
 }
 
