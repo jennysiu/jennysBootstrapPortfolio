@@ -94,6 +94,32 @@ a:hover::after {
   font-size: 25px !important;
 }
 
+.jumboButton {
+  margin-top: 2%;
+  background-color: var(--lightGreen);
+  border: 1px solid var(--pink);
+}
+
+.jumboButton:hover {
+  margin-top: 2%;
+  background-color: var(--darkGreen);
+  border: 1px solid var(--lightGreen);
+}
+
+.jumboLink {
+  position: relative;
+  text-decoration: none;
+
+}
+
+.jumboLink::after {
+  height: 0px; /* disable global hover effect for link here*/
+}
+
+.jumboLink:hover::after {
+  margin-bottom: -4px;
+}
+
 .profileImg {
   margin-left: 20%;
   height: 300px;
@@ -160,19 +186,24 @@ a.projectImgLink::after {
   margin-top: 0;
 }
 
+#aboutMe p {
+  text-align: left;
+}
+
 .cvButton {
-  margin: 2%;
-  background-color: white;
-  border: 1px solid var(--pink);
-  color: rgb(42, 39, 39);
+  margin-top: 1%;
+  
+  background-color: var(--pink);
+  border: 1px solid var(--lightGreen);
+  color: white;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .cvButton:hover {
   margin: 2%;
-  background-color: rgb(211, 99, 118);
+  background-color: white;
   border: 1px solid var(--pink);
-  color: white;
+  color: grey;
 }
 
 .cvLink {
@@ -208,7 +239,7 @@ footer {
 footer a {
   margin: 1%;
   height: 5%;
-  font-size: 30px;
+  font-size: 40px;
   color: #000000a6;
 }
 
